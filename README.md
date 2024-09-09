@@ -9,8 +9,8 @@ This project relies mainly on Django. Mainly:
 
 
   - Required features for a library management system 
-  - Proper [JWT][1] based authentication should be implemented in each protected web api endpoint
-  - Ensure an user can only perform actions using apis which are allowed to the role assigned to that user
+  - Proper [JWT][1] based authentication implemented in each protected web api endpoint
+  - A user can only perform actions using apis which are allowed to the role assigned to that user
 
 ### Scenario
 The are two roles in the system; `LIBRARIAN` and `MEMBER`
